@@ -1,3 +1,8 @@
+/* eslint-disable */
+
+require = require('esm')(module);
+module.exports = require('./tests.js');
+
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 const { window } = new JSDOM(``);

@@ -15,9 +15,7 @@ div {
 
 .image {
     height: 100px;
-    
 }
-
 
 button {
     margin-bottom: 50px;
@@ -25,19 +23,22 @@ button {
 
 .part {
     display: block;
-    height: 100px;
-    width: 75px;
+    height: 160px;
+    width: 100px;
     border-radius: 100%;
-    margin-top: 0px;
+    margin-top: -75px;
     margin-bottom: -20px;
-    margin-left: 150px;
-    x
+    margin-left: 300px;
 }
 
 .yellow {
-    background: yellow;
+    background: rgb(224, 203, 105);
 }
 
 .lightbrown {
-    background: brown;
+    background: rgb(156, 121, 56);
+}
+
+footer {
+    margin-top: 50px;
 }

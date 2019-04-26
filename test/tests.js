@@ -1,12 +1,17 @@
+import addPart from '../src/function.js';
 const test = QUnit.test;
 
-test('time to test a function', function(assert) {
+test('appends part to parent element', function(assert) {
     //Arrange
-    // Set up your parameters and expectations
+    const colorName = 'yellow';
+    const parentElement = document.createElement('div');
+    const expected = '<span class="part yellow"></span>';
 
     //Act 
+    addPart(parentElement, colorName);
     // Call the function you're testing and set the result to a const
 
     //Assert
-    assert.equal(true, false);
+    const parentInnerHTML = parentElement.innerHTML;
+    assert.equal(parentInnerHTML, expected);
 });
