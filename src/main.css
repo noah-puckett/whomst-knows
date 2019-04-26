@@ -1,0 +1,43 @@
+
+body {
+    width: 650px; 
+}
+
+div {
+    text-align: center;
+}
+
+.snakepic {
+    margin-bottom: -5;
+    border-bottom: -5;
+    padding-bottom: -5;
+}
+
+.image {
+    height: 100px;
+    
+}
+
+
+button {
+    margin-bottom: 50px;
+}
+
+.part {
+    display: block;
+    height: 100px;
+    width: 75px;
+    border-radius: 100%;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    margin-left: 150px;
+    x
+}
+
+.yellow {
+    background: yellow;
+}
+
+.lightbrown {
+    background: brown;
+}
